@@ -1,112 +1,175 @@
 {
-    "charts":  [
-                   {
-                       "rows":  [
-                                    {
-                                        "value":  62.9,
-                                        "label":  "мышка"
-                                    },
-                                    {
-                                        "value":  21,
-                                        "label":  "тышқан"
-                                    },
-                                    {
-                                        "value":  16.2,
-                                        "label":  "тінтуір"
-                                    }
-                                ],
-                       "title":  "mouseChart"
-                   },
-                   {
-                       "rows":  [
-                                    {
-                                        "key":  "noKazakh",
-                                        "value":  60.8
-                                    },
-                                    {
-                                        "value":  24.9,
-                                        "label":  "қатты диск"
-                                    },
-                                    {
-                                        "value":  14.3,
-                                        "label":  "қатқыл диск"
-                                    }
-                                ],
-                       "title":  "diskChart"
-                   }
-               ],
-    "source":  "User brief; original DOCX not supplied",
-    "methods":  [
-                    {
-                        "example":  "желі",
-                        "id":  "lexical",
-                        "explanation":  {
-                                            "ru":  "Обычное слово получает специальное техническое значение.",
-                                            "kk":  "Күнделікті сөзге арнайы техникалық мағына беріледі.",
-                                            "en":  "An existing word takes on a specialised technical meaning."
-                                        }
-                    },
-                    {
-                        "example":  "қолданба",
-                        "id":  "morphological",
-                        "explanation":  {
-                                            "ru":  "Новое название образуется с помощью аффикса.",
-                                            "kk":  "Жұрнақ арқылы жаңа атау жасалады.",
-                                            "en":  "An affix is used to form a new term."
-                                        }
-                    },
-                    {
-                        "example":  "қатты диск",
-                        "id":  "syntactic",
-                        "explanation":  {
-                                            "ru":  "Несколько слов вместе обозначают одно понятие.",
-                                            "kk":  "Бірнеше сөз бірігіп, бір ұғымды атайды.",
-                                            "en":  "Multiple words combine to name one concept."
-                                        }
-                    },
-                    {
-                        "example":  "сервер",
-                        "id":  "transcription",
-                        "explanation":  {
-                                            "ru":  "Звучание или написание иноязычного термина адаптируется.",
-                                            "kk":  "Өзге тілдегі атаудың дыбысталуы немесе жазылуы бейімделеді.",
-                                            "en":  "The sound or spelling of a borrowed term is adapted."
-                                        }
-                    },
-                    {
-                        "example":  "бұлттық сақтау / cloud storage",
-                        "id":  "calque",
-                        "explanation":  {
-                                            "ru":  "Составные части названия переводятся.",
-                                            "kk":  "Атаудың құрамдас бөліктері аударылады.",
-                                            "en":  "The components of a term are translated."
-                                        }
-                    }
-                ],
-    "pairs":  [
-                  [
-                      "Қоржын",
-                      "Себет"
-                  ],
-                  [
-                      "Қапшық",
-                      "Бума"
-                  ],
-                  [
-                      "Пәрмен",
-                      "Команда"
-                  ],
-                  [
-                      "Құпиясөз",
-                      "Пароль"
-                  ],
-                  [
-                      "Теңшеу",
-                      "Баптау"
-                  ],
-                  [
-                      "Амалдық жүйе",
-                      "Операциялық жүйе"
-                  ]
-              ]
+  "charts": [
+    {
+      "rows": [
+        {
+          "value": 62.9,
+          "label": "мышка"
+        },
+        {
+          "value": 21,
+          "label": "тышқан"
+        },
+        {
+          "value": 16.2,
+          "label": "тінтуір"
+        }
+      ],
+      "title": "mouseChart",
+      "sourcePage": 173
+    },
+    {
+      "rows": [
+        {
+          "key": "noKazakh",
+          "value": 60.8
+        },
+        {
+          "value": 24.9,
+          "label": "қатты диск"
+        },
+        {
+          "value": 14.3,
+          "label": "қатқыл диск"
+        }
+      ],
+      "title": "diskChart",
+      "sourcePage": 174
+    },
+    {
+      "title": "keyboardChart",
+      "sourcePage": 173,
+      "rows": [
+        {
+          "key": "keyboardSometimes",
+          "value": 40.5
+        },
+        {
+          "key": "keyboardRussian",
+          "value": 32.8
+        },
+        {
+          "key": "keyboardAlways",
+          "value": 12.9
+        },
+        {
+          "key": "keyboardNever",
+          "value": 12.2
+        },
+        {
+          "key": "keyboardFirst",
+          "value": 1.6
+        }
+      ]
+    },
+    {
+      "title": "softwareChart",
+      "sourcePage": 174,
+      "rows": [
+        {
+          "key": "softwareUnheard",
+          "value": 57.5
+        },
+        {
+          "label": "бағдарламалық қамтамасыздандыру",
+          "value": 14.7
+        },
+        {
+          "label": "бағдарламалық қамту",
+          "value": 13.1
+        },
+        {
+          "label": "бағдарламалық жасақтама",
+          "value": 9.3
+        },
+        {
+          "label": "бағдарламалық қамтым",
+          "value": 6.4
+        }
+      ]
+    }
+  ],
+  "source": {
+    "authors": "Б. Е. Кеңес, Ш. Құрманбайұлы",
+    "title": "Қазақ тіліндегі ақпараттық технология (IT) терминдерінің қолданысы",
+    "publication": "TILTANYM, 2023, № 1 (89), 169–181",
+    "doi": "https://doi.org/10.55491/2411-6076-2023-1-169-181",
+    "pdf": "https://qazcorpus.kz/_oqu-ishorpus/Dengeilyk/pdf/39-42-PB.pdf",
+    "participants": 483,
+    "surveyStart": "2021-03-16",
+    "surveyEnd": "2021-03-25"
+  },
+  "methods": [
+    {
+      "example": "желі",
+      "id": "lexical",
+      "explanation": {
+        "ru": "Обычное слово получает специальное техническое значение.",
+        "kk": "Күнделікті сөзге арнайы техникалық мағына беріледі.",
+        "en": "An existing word takes on a specialised technical meaning."
+      }
+    },
+    {
+      "example": "қолданба",
+      "id": "morphological",
+      "explanation": {
+        "ru": "Новое название образуется с помощью аффикса.",
+        "kk": "Жұрнақ арқылы жаңа атау жасалады.",
+        "en": "An affix is used to form a new term."
+      }
+    },
+    {
+      "example": "қатты диск",
+      "id": "syntactic",
+      "explanation": {
+        "ru": "Несколько слов вместе обозначают одно понятие.",
+        "kk": "Бірнеше сөз бірігіп, бір ұғымды атайды.",
+        "en": "Multiple words combine to name one concept."
+      }
+    },
+    {
+      "example": "сервер",
+      "id": "transcription",
+      "explanation": {
+        "ru": "Звучание или написание иноязычного термина адаптируется.",
+        "kk": "Өзге тілдегі атаудың дыбысталуы немесе жазылуы бейімделеді.",
+        "en": "The sound or spelling of a borrowed term is adapted."
+      }
+    },
+    {
+      "example": "бұлттық сақтау / cloud storage",
+      "id": "calque",
+      "explanation": {
+        "ru": "Составные части названия переводятся.",
+        "kk": "Атаудың құрамдас бөліктері аударылады.",
+        "en": "The components of a term are translated."
+      }
+    }
+  ],
+  "pairs": [
+    [
+      "Қоржын",
+      "Себет"
+    ],
+    [
+      "Қапшық",
+      "Бума"
+    ],
+    [
+      "Пәрмен",
+      "Команда"
+    ],
+    [
+      "Құпиясөз",
+      "Пароль"
+    ],
+    [
+      "Теңшеу",
+      "Баптау"
+    ],
+    [
+      "Амалдық жүйе",
+      "Операциялық жүйе"
+    ]
+  ]
 }
