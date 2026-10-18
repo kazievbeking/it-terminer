@@ -1,0 +1,600 @@
+[
+    {
+        "variants":  [
+                         "тышқан"
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Мышь».",
+                        "kk":  "Бұл сабақта «Тінтуір» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Mouse."
+                    },
+        "id":  1,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "brief",
+        "definition":  {
+                           "ru":  "Устройство для управления указателем.",
+                           "kk":  "Меңзерді басқаруға арналған құрылғы.",
+                           "en":  "A device for controlling the pointer."
+                       },
+        "en":  "Mouse",
+        "ru":  "Мышь",
+        "kk":  "Тінтуір"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Клавиатура».",
+                        "kk":  "Бұл сабақта «Пернетақта» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Keyboard."
+                    },
+        "id":  2,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "brief",
+        "definition":  {
+                           "ru":  "Устройство для ввода текста и команд.",
+                           "kk":  "Мәтін мен пәрмен енгізетін құрылғы.",
+                           "en":  "A device for entering text and commands."
+                       },
+        "en":  "Keyboard",
+        "ru":  "Клавиатура",
+        "kk":  "Пернетақта"
+    },
+    {
+        "variants":  [
+                         "қатқыл диск"
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Жёсткий диск».",
+                        "kk":  "Бұл сабақта «Қатты диск» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Hard disk."
+                    },
+        "id":  3,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "brief",
+        "definition":  {
+                           "ru":  "Устройство для длительного хранения данных.",
+                           "kk":  "Деректерді ұзақ сақтайтын құрылғы.",
+                           "en":  "A device for long-term data storage."
+                       },
+        "en":  "Hard disk",
+        "ru":  "Жёсткий диск",
+        "kk":  "Қатты диск"
+    },
+    {
+        "variants":  [
+                         "бағдарламалық қамтылым"
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Программное обеспечение».",
+                        "kk":  "Бұл сабақта «Бағдарламалық жасақтама» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Software."
+                    },
+        "id":  4,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "brief",
+        "definition":  {
+                           "ru":  "Совокупность программ, выполняемых компьютером.",
+                           "kk":  "Компьютерде орындалатын бағдарламалар жиынтығы.",
+                           "en":  "Programs that run on a computer."
+                       },
+        "en":  "Software",
+        "ru":  "Программное обеспечение",
+        "kk":  "Бағдарламалық жасақтама"
+    },
+    {
+        "variants":  [
+                         "команда"
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Команда».",
+                        "kk":  "Бұл сабақта «Пәрмен» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Command."
+                    },
+        "id":  5,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "brief",
+        "definition":  {
+                           "ru":  "Инструкция системе выполнить действие.",
+                           "kk":  "Жүйеге берілетін әрекет нұсқауы.",
+                           "en":  "An instruction for a system to perform an action."
+                       },
+        "en":  "Command",
+        "ru":  "Команда",
+        "kk":  "Пәрмен"
+    },
+    {
+        "variants":  [
+                         "пароль"
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Пароль».",
+                        "kk":  "Бұл сабақта «Құпиясөз» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Password."
+                    },
+        "id":  6,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "brief",
+        "definition":  {
+                           "ru":  "Секретная последовательность для проверки доступа.",
+                           "kk":  "Қолжетімділікті тексеруге арналған құпия таңбалар.",
+                           "en":  "A secret sequence used to verify access."
+                       },
+        "en":  "Password",
+        "ru":  "Пароль",
+        "kk":  "Құпиясөз"
+    },
+    {
+        "variants":  [
+                         "бума"
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Папка».",
+                        "kk":  "Бұл сабақта «Қапшық» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Folder."
+                    },
+        "id":  7,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "brief",
+        "definition":  {
+                           "ru":  "Место для организации файлов.",
+                           "kk":  "Файлдарды ұйымдастыруға арналған орын.",
+                           "en":  "A location used to organise files."
+                       },
+        "en":  "Folder",
+        "ru":  "Папка",
+        "kk":  "Қапшық"
+    },
+    {
+        "variants":  [
+                         "себет"
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Корзина».",
+                        "kk":  "Бұл сабақта «Қоржын» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Recycle bin."
+                    },
+        "id":  8,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "brief",
+        "definition":  {
+                           "ru":  "Место временного хранения удалённых файлов.",
+                           "kk":  "Жойылған файлдарды уақытша сақтайтын орын.",
+                           "en":  "A temporary location for deleted files."
+                       },
+        "en":  "Recycle bin",
+        "ru":  "Корзина",
+        "kk":  "Қоржын"
+    },
+    {
+        "variants":  [
+                         "баптау"
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Настройка».",
+                        "kk":  "Бұл сабақта «Теңшеу» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Settings."
+                    },
+        "id":  9,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "brief",
+        "definition":  {
+                           "ru":  "Изменение параметров программы.",
+                           "kk":  "Бағдарлама параметрлерін өзгерту.",
+                           "en":  "Adjusting a program\u0027s preferences."
+                       },
+        "en":  "Settings",
+        "ru":  "Настройка",
+        "kk":  "Теңшеу"
+    },
+    {
+        "variants":  [
+                         "операциялық жүйе"
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Операционная система».",
+                        "kk":  "Бұл сабақта «Амалдық жүйе» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Operating system."
+                    },
+        "id":  10,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "brief",
+        "definition":  {
+                           "ru":  "Основные программы, управляющие ресурсами устройства.",
+                           "kk":  "Құрылғы ресурстарын басқаратын негізгі бағдарламалар.",
+                           "en":  "Core software that manages device resources."
+                       },
+        "en":  "Operating system",
+        "ru":  "Операционная система",
+        "kk":  "Амалдық жүйе"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Файл».",
+                        "kk":  "Бұл сабақта «Файл» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of File."
+                    },
+        "id":  11,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Именованная единица сохранённых данных.",
+                           "kk":  "Атауы бар сақталған деректер бірлігі.",
+                           "en":  "A named unit of stored data."
+                       },
+        "en":  "File",
+        "ru":  "Файл",
+        "kk":  "Файл"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Сеть».",
+                        "kk":  "Бұл сабақта «Желі» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Network."
+                    },
+        "id":  12,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Связь устройств для обмена данными.",
+                           "kk":  "Дерек алмасатын құрылғылар байланысы.",
+                           "en":  "Connected devices that exchange data."
+                       },
+        "en":  "Network",
+        "ru":  "Сеть",
+        "kk":  "Желі"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «База данных».",
+                        "kk":  "Бұл сабақта «Дерекқор» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Database."
+                    },
+        "id":  13,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Организованный набор данных.",
+                           "kk":  "Құрылымдалған деректер жиынтығы.",
+                           "en":  "An organised collection of data."
+                       },
+        "en":  "Database",
+        "ru":  "База данных",
+        "kk":  "Дерекқор"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Ссылка».",
+                        "kk":  "Бұл сабақта «Сілтеме» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Link."
+                    },
+        "id":  14,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Адрес для перехода к другому ресурсу.",
+                           "kk":  "Басқа ресурсқа өтуге арналған мекенжай.",
+                           "en":  "A reference leading to another resource."
+                       },
+        "en":  "Link",
+        "ru":  "Ссылка",
+        "kk":  "Сілтеме"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Браузер».",
+                        "kk":  "Бұл сабақта «Браузер» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Browser."
+                    },
+        "id":  15,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Программа для просмотра веб-страниц.",
+                           "kk":  "Веб-беттерді ашатын бағдарлама.",
+                           "en":  "A program for viewing web pages."
+                       },
+        "en":  "Browser",
+        "ru":  "Браузер",
+        "kk":  "Браузер"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Сервер».",
+                        "kk":  "Бұл сабақта «Сервер» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Server."
+                    },
+        "id":  16,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Система, предоставляющая услуги другим устройствам.",
+                           "kk":  "Басқа құрылғыларға қызмет ұсынатын жүйе.",
+                           "en":  "A system that provides services to other devices."
+                       },
+        "en":  "Server",
+        "ru":  "Сервер",
+        "kk":  "Сервер"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Алгоритм».",
+                        "kk":  "Бұл сабақта «Алгоритм» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Algorithm."
+                    },
+        "id":  17,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Последовательность шагов решения задачи.",
+                           "kk":  "Есепті шешуге арналған қадамдар реті.",
+                           "en":  "A sequence of steps for solving a problem."
+                       },
+        "en":  "Algorithm",
+        "ru":  "Алгоритм",
+        "kk":  "Алгоритм"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Память».",
+                        "kk":  "Бұл сабақта «Жады» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Memory."
+                    },
+        "id":  18,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Ресурс компьютера для хранения данных.",
+                           "kk":  "Деректерді сақтайтын компьютер ресурсы.",
+                           "en":  "A computer resource for holding data."
+                       },
+        "en":  "Memory",
+        "ru":  "Память",
+        "kk":  "Жады"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Процессор».",
+                        "kk":  "Бұл сабақта «Процессор» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Processor."
+                    },
+        "id":  19,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Компонент, выполняющий инструкции программы.",
+                           "kk":  "Бағдарлама нұсқауларын орындайтын бөлік.",
+                           "en":  "A component that executes program instructions."
+                       },
+        "en":  "Processor",
+        "ru":  "Процессор",
+        "kk":  "Процессор"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Экран».",
+                        "kk":  "Бұл сабақта «Экран» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Screen."
+                    },
+        "id":  20,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Поверхность для отображения информации.",
+                           "kk":  "Көрнекі ақпарат көрсетілетін бет.",
+                           "en":  "A surface that displays visual information."
+                       },
+        "en":  "Screen",
+        "ru":  "Экран",
+        "kk":  "Экран"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Загрузка».",
+                        "kk":  "Бұл сабақта «Жүктеу» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Download."
+                    },
+        "id":  21,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Получение данных на устройство.",
+                           "kk":  "Деректерді құрылғыға алу әрекеті.",
+                           "en":  "Transferring data to a device."
+                       },
+        "en":  "Download",
+        "ru":  "Загрузка",
+        "kk":  "Жүктеу"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Обновление».",
+                        "kk":  "Бұл сабақта «Жаңарту» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Update."
+                    },
+        "id":  22,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Переход программы на новую версию.",
+                           "kk":  "Бағдарламаны жаңа нұсқаға ауыстыру.",
+                           "en":  "Replacing software with a newer version."
+                       },
+        "en":  "Update",
+        "ru":  "Обновление",
+        "kk":  "Жаңарту"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Электронная почта».",
+                        "kk":  "Бұл сабақта «Электрондық пошта» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Email."
+                    },
+        "id":  23,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Обмен электронными письмами через сеть.",
+                           "kk":  "Желі арқылы электрондық хат алмасу.",
+                           "en":  "Exchanging electronic messages over a network."
+                       },
+        "en":  "Email",
+        "ru":  "Электронная почта",
+        "kk":  "Электрондық пошта"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Облачное хранилище».",
+                        "kk":  "Бұл сабақта «Бұлттық сақтау» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Cloud storage."
+                    },
+        "id":  24,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Хранение данных в удалённой системе.",
+                           "kk":  "Деректерді қашықтағы жүйеде сақтау.",
+                           "en":  "Keeping data on a remote system."
+                       },
+        "en":  "Cloud storage",
+        "ru":  "Облачное хранилище",
+        "kk":  "Бұлттық сақтау"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Приложение».",
+                        "kk":  "Бұл сабақта «Қолданба» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Application."
+                    },
+        "id":  25,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Программа для определённой задачи.",
+                           "kk":  "Белгілі міндетті орындайтын бағдарлама.",
+                           "en":  "Software designed for a specific task."
+                       },
+        "en":  "Application",
+        "ru":  "Приложение",
+        "kk":  "Қолданба"
+    },
+    {
+        "variants":  [
+
+                     ],
+        "example":  {
+                        "ru":  "В этом задании мы изучаем понятие «Данные».",
+                        "kk":  "Бұл сабақта «Деректер» ұғымын қарастырамыз.",
+                        "en":  "In this activity we explore the concept of Data."
+                    },
+        "id":  26,
+        "methods":  [
+                        "unknown"
+                    ],
+        "origin":  "addition",
+        "definition":  {
+                           "ru":  "Информация для обработки или хранения.",
+                           "kk":  "Өңдеуге немесе сақтауға болатын ақпарат.",
+                           "en":  "Information that can be processed or stored."
+                       },
+        "en":  "Data",
+        "ru":  "Данные",
+        "kk":  "Деректер"
+    }
+]
