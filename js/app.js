@@ -45,12 +45,6 @@ function renderResearch() {
       box.append(label);
     });
 
-    const source = el('a', t('chartSource') + ' · TILTANYM 2023 · ' + t('pageLabel') + ' ' + c.sourcePage, 'chart-source');
-    source.href = research.source.pdf + '#page=' + c.sourcePage;
-    source.target = '_blank';
-    source.rel = 'noopener noreferrer';
-    box.append(source);
-    
     charts.append(box);
   });
 
