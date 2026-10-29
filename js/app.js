@@ -29,22 +29,6 @@ function renderResearch() {
     el('p', `${t('illustration')}: ${m.example}.`)
   );
 
-  const charts = document.querySelector('#charts');
-  charts.replaceChildren();
-  
-  research.charts.forEach(c => {
-    const box = el('div', undefined, 'chart');
-    box.append(el('h3', t(c.title)));
-    
-    c.rows.forEach(row => {
-      const label = el('div', undefined, 'bar-label');
-      label.append(
-        el('span', row.key ? t(row.key) : row.label),
-        el('strong', row.value.toLocaleString(document.documentElement.lang) + '%')
-      );
-      box.append(label);
-    });
-
     const source = el('a', t('chartSource') + ' · TILTANYM 2023 · ' + t('pageLabel') + ' ' + c.sourcePage, 'chart-source');
     source.href = research.source.pdf + '#page=' + c.sourcePage;
     source.target = '_blank';
