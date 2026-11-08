@@ -1,6 +1,7 @@
 import{t,local,storage,setLanguage}from './i18n.js';
 import{initDictionary,refreshDictionary}from './dictionary.js';
 import{initQuiz,renderQuiz}from './quiz.js';
+import{initGame,renderGame}from './game.js';
 
 let research, method = 'lexical';
 
@@ -81,6 +82,7 @@ async function main() {
   research = data;
   initDictionary(terms);
   initQuiz(terms,research.methods);
+  initGame(terms);
   renderResearch();
 
   document.querySelector('#art').onclick = e => e.currentTarget.classList.toggle('shift');
@@ -92,6 +94,7 @@ async function main() {
         refreshDictionary();
         renderResearch();
         renderQuiz();
+        renderGame();
       } catch {
         showLoadError(t('loadError'));
       }

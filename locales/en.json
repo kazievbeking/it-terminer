@@ -77,5 +77,21 @@
     "methodExamples":  "Examples",
     "type_definition":  "Definition",
     "matchSelect":  "Choose an equivalent",
-    "type_formation":  "Formation method"
+    "type_formation":  "Formation method",
+    "gameTitle":  "Match the IT terms",
+    "gameReady":  "6 concepts. 12 cards.",
+    "gamePairs":  "Pairs",
+    "gameEyebrow":  "LEARN THROUGH PLAY",
+    "gameMoves":  "Moves",
+    "gameInstructions":  "Reveal two cards. Match the Kazakh and English names of the same concept.",
+    "gameStart":  "Start game",
+    "gameWin":  "Well done! You found all 6 pairs.",
+    "gameCard":  "Card",
+    "gameMatched":  "Pair found",
+    "gameRestart":  "New game ↻",
+    "gameReveal":  "Reveal",
+    "gameTime":  "Time",
+    "gameDescription":  "Train your memory and connect Kazakh IT terms with their English names.",
+    "gameTryAgain":  "Different concepts. Remember the cards and try again.",
+    "gameNav":  "Game"
 }
