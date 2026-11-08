@@ -14,7 +14,7 @@ const el = (tag, text, className) => {
 function renderResearch() {
   const tabs = document.querySelector('#methods');
   tabs.replaceChildren();
-  
+
   research.methods.forEach(m => {
     const b = el('button', t(m.id), method === m.id ? 'active' : '');
     b.setAttribute('aria-pressed', m.id === method);
@@ -23,10 +23,15 @@ function renderResearch() {
   });
 
   const m = research.methods.find(x => x.id === method);
+  const examples=el('ul',undefined,'method-examples');
+  m.examples.forEach(example=>examples.append(el('li',example)));
   document.querySelector('#method-detail').replaceChildren(
     el('h3', t(m.id)),
+    el('h4', t('methodRule')),
     el('p', local(m.explanation)),
-    el('p', `${t('illustration')}: ${m.example}.`)
+    el('p', local(m.details)),
+    el('h4', t('methodExamples')),
+    examples
   );
 
   const charts = document.querySelector('#charts');
@@ -48,8 +53,6 @@ function renderResearch() {
     charts.append(box);
   });
 
-  renderStatisticsSource();
-
   document.querySelector('#pairs').replaceChildren(
     ...research.pairs.map(pair => {
       const row = el('div', undefined, 'pair');
@@ -59,32 +62,6 @@ function renderResearch() {
   );
 }
 
-function renderStatisticsSource() {
-  const source = research.source;
-  const root = document.querySelector('#statistics-source');
-  
-  const pdf = el('a', t('sourceOpen'));
-  pdf.href = source.pdf + '#page=169';
-  pdf.target = '_blank';
-  pdf.rel = 'noopener noreferrer';
-  
-  const doi = el('a', t('sourceDOI'));
-  doi.href = source.doi;
-  doi.target = '_blank';
-  doi.rel = 'noopener noreferrer';
-  
-  const links = el('div', undefined, 'source-links');
-  links.append(pdf, doi);
-  
-  root.replaceChildren(
-    el('h3', t('sourceHeading')),
-    el('p', source.authors),
-    el('p', source.title),
-    el('p', source.publication),
-    el('p', t('sourcePages')),
-    links
-  );
-}
 
 async function loadJSON(path) {
   const r = await fetch(path);
@@ -95,19 +72,19 @@ async function loadJSON(path) {
 async function main() {
   const saved = storage.get('it-language', 'kk');
   await setLanguage(['kk', 'ru', 'en'].includes(saved) ? saved : 'kk');
-  
+
   const [terms, data] = await Promise.all([
     loadJSON('data/terms.json'),
     loadJSON('data/research.json')
   ]);
-  
+
   research = data;
   initDictionary(terms);
-  initQuiz(terms);
+  initQuiz(terms,research.methods);
   renderResearch();
-  
+
   document.querySelector('#art').onclick = e => e.currentTarget.classList.toggle('shift');
-  
+
   document.querySelectorAll('[data-lang]').forEach(b => {
     b.onclick = async () => {
       try {

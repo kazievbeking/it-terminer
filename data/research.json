@@ -1,175 +1,251 @@
 {
-  "charts": [
-    {
-      "rows": [
-        {
-          "value": 62.9,
-          "label": "мышка"
-        },
-        {
-          "value": 21,
-          "label": "тышқан"
-        },
-        {
-          "value": 16.2,
-          "label": "тінтуір"
-        }
-      ],
-      "title": "mouseChart",
-      "sourcePage": 173
-    },
-    {
-      "rows": [
-        {
-          "key": "noKazakh",
-          "value": 60.8
-        },
-        {
-          "value": 24.9,
-          "label": "қатты диск"
-        },
-        {
-          "value": 14.3,
-          "label": "қатқыл диск"
-        }
-      ],
-      "title": "diskChart",
-      "sourcePage": 174
-    },
-    {
-      "title": "keyboardChart",
-      "sourcePage": 173,
-      "rows": [
-        {
-          "key": "keyboardSometimes",
-          "value": 40.5
-        },
-        {
-          "key": "keyboardRussian",
-          "value": 32.8
-        },
-        {
-          "key": "keyboardAlways",
-          "value": 12.9
-        },
-        {
-          "key": "keyboardNever",
-          "value": 12.2
-        },
-        {
-          "key": "keyboardFirst",
-          "value": 1.6
-        }
-      ]
-    },
-    {
-      "title": "softwareChart",
-      "sourcePage": 174,
-      "rows": [
-        {
-          "key": "softwareUnheard",
-          "value": 57.5
-        },
-        {
-          "label": "бағдарламалық қамтамасыздандыру",
-          "value": 14.7
-        },
-        {
-          "label": "бағдарламалық қамту",
-          "value": 13.1
-        },
-        {
-          "label": "бағдарламалық жасақтама",
-          "value": 9.3
-        },
-        {
-          "label": "бағдарламалық қамтым",
-          "value": 6.4
-        }
-      ]
-    }
-  ],
-  "source": {
-    "authors": "Б. Е. Кеңес, Ш. Құрманбайұлы",
-    "title": "Қазақ тіліндегі ақпараттық технология (IT) терминдерінің қолданысы",
-    "publication": "TILTANYM, 2023, № 1 (89), 169–181",
-    "doi": "https://doi.org/10.55491/2411-6076-2023-1-169-181",
-    "pdf": "https://qazcorpus.kz/_oqu-ishorpus/Dengeilyk/pdf/39-42-PB.pdf",
-    "participants": 483,
-    "surveyStart": "2021-03-16",
-    "surveyEnd": "2021-03-25"
-  },
-  "methods": [
-    {
-      "example": "желі",
-      "id": "lexical",
-      "explanation": {
-        "ru": "Обычное слово получает специальное техническое значение.",
-        "kk": "Күнделікті сөзге арнайы техникалық мағына беріледі.",
-        "en": "An existing word takes on a specialised technical meaning."
-      }
-    },
-    {
-      "example": "қолданба",
-      "id": "morphological",
-      "explanation": {
-        "ru": "Новое название образуется с помощью аффикса.",
-        "kk": "Жұрнақ арқылы жаңа атау жасалады.",
-        "en": "An affix is used to form a new term."
-      }
-    },
-    {
-      "example": "қатты диск",
-      "id": "syntactic",
-      "explanation": {
-        "ru": "Несколько слов вместе обозначают одно понятие.",
-        "kk": "Бірнеше сөз бірігіп, бір ұғымды атайды.",
-        "en": "Multiple words combine to name one concept."
-      }
-    },
-    {
-      "example": "сервер",
-      "id": "transcription",
-      "explanation": {
-        "ru": "Звучание или написание иноязычного термина адаптируется.",
-        "kk": "Өзге тілдегі атаудың дыбысталуы немесе жазылуы бейімделеді.",
-        "en": "The sound or spelling of a borrowed term is adapted."
-      }
-    },
-    {
-      "example": "бұлттық сақтау / cloud storage",
-      "id": "calque",
-      "explanation": {
-        "ru": "Составные части названия переводятся.",
-        "kk": "Атаудың құрамдас бөліктері аударылады.",
-        "en": "The components of a term are translated."
-      }
-    }
-  ],
-  "pairs": [
-    [
-      "Қоржын",
-      "Себет"
-    ],
-    [
-      "Қапшық",
-      "Бума"
-    ],
-    [
-      "Пәрмен",
-      "Команда"
-    ],
-    [
-      "Құпиясөз",
-      "Пароль"
-    ],
-    [
-      "Теңшеу",
-      "Баптау"
-    ],
-    [
-      "Амалдық жүйе",
-      "Операциялық жүйе"
-    ]
-  ]
+    "charts":  [
+                   {
+                       "rows":  [
+                                    {
+                                        "value":  62.9,
+                                        "label":  "мышка"
+                                    },
+                                    {
+                                        "value":  21,
+                                        "label":  "тышқан"
+                                    },
+                                    {
+                                        "value":  16.2,
+                                        "label":  "тінтуір"
+                                    }
+                                ],
+                       "title":  "mouseChart",
+                       "sourcePage":  173
+                   },
+                   {
+                       "rows":  [
+                                    {
+                                        "key":  "noKazakh",
+                                        "value":  60.8
+                                    },
+                                    {
+                                        "value":  24.9,
+                                        "label":  "қатты диск"
+                                    },
+                                    {
+                                        "value":  14.3,
+                                        "label":  "қатқыл диск"
+                                    }
+                                ],
+                       "title":  "diskChart",
+                       "sourcePage":  174
+                   },
+                   {
+                       "title":  "keyboardChart",
+                       "sourcePage":  173,
+                       "rows":  [
+                                    {
+                                        "key":  "keyboardSometimes",
+                                        "value":  40.5
+                                    },
+                                    {
+                                        "key":  "keyboardRussian",
+                                        "value":  32.8
+                                    },
+                                    {
+                                        "key":  "keyboardAlways",
+                                        "value":  12.9
+                                    },
+                                    {
+                                        "key":  "keyboardNever",
+                                        "value":  12.2
+                                    },
+                                    {
+                                        "key":  "keyboardFirst",
+                                        "value":  1.6
+                                    }
+                                ]
+                   },
+                   {
+                       "title":  "softwareChart",
+                       "sourcePage":  174,
+                       "rows":  [
+                                    {
+                                        "key":  "softwareUnheard",
+                                        "value":  57.5
+                                    },
+                                    {
+                                        "label":  "бағдарламалық қамтамасыздандыру",
+                                        "value":  14.7
+                                    },
+                                    {
+                                        "label":  "бағдарламалық қамту",
+                                        "value":  13.1
+                                    },
+                                    {
+                                        "label":  "бағдарламалық жасақтама",
+                                        "value":  9.3
+                                    },
+                                    {
+                                        "label":  "бағдарламалық қамтым",
+                                        "value":  6.4
+                                    }
+                                ]
+                   }
+               ],
+    "source":  {
+                   "authors":  "Б. Е. Кеңес, Ш. Құрманбайұлы",
+                   "title":  "Қазақ тіліндегі ақпараттық технология (IT) терминдерінің қолданысы",
+                   "publication":  "TILTANYM, 2023, № 1 (89), 169–181",
+                   "doi":  "https://doi.org/10.55491/2411-6076-2023-1-169-181",
+                   "pdf":  "https://qazcorpus.kz/_oqu-ishorpus/Dengeilyk/pdf/39-42-PB.pdf",
+                   "participants":  483,
+                   "surveyStart":  "2021-03-16",
+                   "surveyEnd":  "2021-03-25"
+               },
+    "methods":  [
+                    {
+                        "example":  "желі",
+                        "id":  "lexical",
+                        "explanation":  {
+                                            "ru":  "Общеупотребительное слово получает новое техническое значение.",
+                                            "kk":  "Төл сөздерге жаңа, техникалық мағына беру.",
+                                            "en":  "An existing native word gains a new technical meaning."
+                                        },
+                        "details":  {
+                                        "ru":  "Перенос значения опирается на сходство формы, функции или других признаков. Существующее слово становится названием понятия в определённой области.",
+                                        "kk":  "Жаңа мағына заттардың сыртқы пішіні, қызметі немесе басқа белгілерінің ұқсастығына сүйенеді. Бұрыннан бар сөз белгілі бір саладағы ұғымның атауына айналады.",
+                                        "en":  "The new meaning draws on similarities in appearance, function or other features. An existing word becomes the name of a specialist concept."
+                                    },
+                        "examples":  [
+                                         "перне — клавиша",
+                                         "тышқан — мышь",
+                                         "бет — страница",
+                                         "сақтау — сохранить",
+                                         "баған — столбец",
+                                         "кесте — таблица",
+                                         "пәрмен — команда",
+                                         "меңзер — курсор"
+                                     ],
+                        "quizExamples":  [
+                                             "перне — клавиша",
+                                             "бет — страница"
+                                         ]
+                    },
+                    {
+                        "example":  "қолданба",
+                        "id":  "morphological",
+                        "explanation":  {
+                                            "ru":  "Новое название образуется присоединением словообразовательного суффикса.",
+                                            "kk":  "Сөз тудырушы жұрнақтарды қолдану арқылы жаңа атау жасау.",
+                                            "en":  "A new name is formed by adding a word-forming suffix."
+                                        },
+                        "details":  {
+                                        "ru":  "Суффикс присоединяется к основе и образует новое слово. Примеры показывают связь основы и присоединённых элементов.",
+                                        "kk":  "Түбірге қосылған жұрнақ сөздің мағынасын өзгертіп, жаңа сөз жасайды. Мысалдарда түбір мен қосымшалардың байланысы көрсетілген.",
+                                        "en":  "A suffix is attached to a base to form a new word. The examples show the base and its added elements."
+                                    },
+                        "examples":  [
+                                         "бағдар + -лама → бағдарлама",
+                                         "желі + -де + -гі → желідегі",
+                                         "ізде + -гіш → іздегіш"
+                                     ],
+                        "quizExamples":  [
+                                             "ізде + -гіш → іздегіш"
+                                         ]
+                    },
+                    {
+                        "example":  "қатты диск",
+                        "id":  "syntactic",
+                        "explanation":  {
+                                            "ru":  "Термин образуется сочетанием двух или более слов.",
+                                            "kk":  "Екі немесе одан да көп сөздің тіркесуі арқылы термин жасау.",
+                                            "en":  "A term is formed by combining two or more words into a phrase."
+                                        },
+                        "details":  {
+                                        "ru":  "Слова вместе обозначают одно понятие. Этот способ также используется при переводе составных терминов из других языков.",
+                                        "kk":  "Сөздер тіркесіп, бір ұғымды білдіреді. Бұл тәсіл басқа тілдегі күрделі атауларды аударуда да қолданылады.",
+                                        "en":  "The words together name one concept. This method is also used to translate multiword terms from other languages."
+                                    },
+                        "examples":  [
+                                         "ақпараттық технология — информационные технологии",
+                                         "ұялы телефон — мобильный телефон",
+                                         "жедел жады — оперативная память",
+                                         "ақпараттық ұрлық — плагиат",
+                                         "жаңсақ басылу — опечатка"
+                                     ],
+                        "quizExamples":  [
+                                             "ұялы телефон",
+                                             "жедел жады"
+                                         ]
+                    },
+                    {
+                        "example":  "сервер",
+                        "id":  "transcription",
+                        "explanation":  {
+                                            "ru":  "Международное название передаётся с адаптацией звучания или буквенного состава к казахскому языку.",
+                                            "kk":  "Халықаралық терминдерді қазақ тілінің дыбыстық жүйесіне бейімдеп жазу немесе әріптік құрамын беру.",
+                                            "en":  "An international term is represented by adapting its sounds or written form to Kazakh."
+                                        },
+                        "details":  {
+                                        "ru":  "Транскрипция опирается на звучание, а транслитерация — на соответствие букв. Заимствованное название передаётся в другой системе письма.",
+                                        "kk":  "Транскрипция дыбыстық тұлғаға, ал транслитерация әріптік сәйкестікке сүйенеді. Кірме атау жаңа жазу жүйесінде беріледі.",
+                                        "en":  "Transcription follows pronunciation, while transliteration follows letter correspondences. The borrowed name is represented in another writing system."
+                                    },
+                        "examples":  [
+                                         "сайт",
+                                         "файл",
+                                         "интернет",
+                                         "пиксель",
+                                         "процессор"
+                                     ],
+                        "quizExamples":  [
+                                             "пиксель",
+                                             "процессор"
+                                         ]
+                    },
+                    {
+                        "example":  "бұлттық сақтау / cloud storage",
+                        "id":  "calque",
+                        "explanation":  {
+                                            "ru":  "Иноязычный термин переводится буквально с сохранением его структуры.",
+                                            "kk":  "Шетелдік терминді құрылымын сақтай отырып, сөзбе-сөз аудару.",
+                                            "en":  "A foreign term is translated literally while preserving its structure."
+                                        },
+                        "details":  {
+                                        "ru":  "Название или его составные части передаются казахскими эквивалентами. Калькирование может пересекаться с другими способами, в том числе с переносом значения.",
+                                        "kk":  "Атау немесе оның құрамдас бөліктері қазақша баламамен беріледі. Калькалау басқа тәсілдермен, соның ішінде мағына ауысуымен қабаттасуы мүмкін.",
+                                        "en":  "The name or its components are rendered using Kazakh equivalents. Calquing can overlap with other methods, including semantic change."
+                                    },
+                        "examples":  [
+                                         "mouse → тышқан",
+                                         "wallpaper → тұсқағаз"
+                                     ],
+                        "quizExamples":  [
+                                             "wallpaper → тұсқағаз"
+                                         ]
+                    }
+                ],
+    "pairs":  [
+                  [
+                      "Қоржын",
+                      "Себет"
+                  ],
+                  [
+                      "Қапшық",
+                      "Бума"
+                  ],
+                  [
+                      "Пәрмен",
+                      "Команда"
+                  ],
+                  [
+                      "Құпиясөз",
+                      "Пароль"
+                  ],
+                  [
+                      "Теңшеу",
+                      "Баптау"
+                  ],
+                  [
+                      "Амалдық жүйе",
+                      "Операциялық жүйе"
+                  ]
+              ]
 }
