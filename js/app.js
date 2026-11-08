@@ -1,7 +1,7 @@
 import{t,local,storage,setLanguage}from './i18n.js';
 import{initDictionary,refreshDictionary}from './dictionary.js';
 import{initQuiz,renderQuiz}from './quiz.js';
-import{initGame,renderGame}from './game.js';
+import{initGame,renderGame}from './arcade.js';
 
 let research, method = 'lexical';
 
